@@ -1,12 +1,15 @@
 import { useState } from 'react'
-import './App.css'
-import BookBar from "./BookBar/BookBar.jsx"
+import './App.css';
+import BookBar from "./BookBar/BookBar.jsx";
+import ImageSlider from "./ImageSlider/ImageSlider.jsx";
+import StillLearning from "./stillLearning.jsx";
 
 function App() {
 
   return (
     <>
-      <BookBar/>
+     <BookBar/>
+     <ImageSlider/>
     </>
   )
 }
